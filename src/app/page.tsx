@@ -2,6 +2,7 @@
 
 import "../styles/globals.css";
 import { useState } from "react";
+import Image from "next/image";
 
 interface Template {
   id: number;
@@ -70,7 +71,7 @@ export default function Home() {
               key={template.id}
               className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <Image
                 src={template.imageUrl}
                 alt={template.name}
                 className="w-full h-48 object-cover rounded-t-lg"

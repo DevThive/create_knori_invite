@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pqina/pintura": "^8.82.11",
+    "@pqina/react-pintura": "^9.0.3",
+    "@types/fabric": "^5.3.7",
+    "fabric": "^6.0.2",
+    "filerobot-image-editor": "^4.8.1",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
